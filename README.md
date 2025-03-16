@@ -25,9 +25,9 @@ This library is still in the development stage.
 
 ## Getting Started
 
-First, install the Arduino IDE on your prefered development OS. Linux, OXS and windows is supported. You can get the code <a href = "https://www.arduino.cc/en/software">here</a>.
+First, install the Arduino IDE on your preferred development OS. Linux, OXS and windows is supported. You can get the code <a href = "https://www.arduino.cc/en/software">here</a>.
 
-Next, download the required library and copy them to your developement folder.
+Next, download the required library and copy them to your development folder.
 
   - <a href="https://www.arduinolibraries.info/libraries/adafruit-bus-io">Adafruit_BusIO</a>
   - <a href="https://github.com/adafruit/Adafruit_BusIO">Adafruit_I2CDevice</a> 
@@ -41,16 +41,16 @@ The point to one of the zip file you have downloaded. Repeat for each required l
 
 ## Loading the Sketch
 
-Double click on the movement_controller.ino file and the Arduino IDE should automatically launch. If it does not launch you can load the sketch by selecting File>Open then naviagte to your project file.
+Double click on the movement_controller.ino file and the Arduino IDE should automatically launch. If it does not launch you can load the sketch by selecting File>Open then navigate to your project file.
 
 
 ## Deploying
 
-First choose a board type. When you connect your Arduino board it should be auto-detected by the IDE. For some brands you may have to mannual select it fromt he combo box. For off-brand Arduino we recommend searching forums for the best match. Many specify incorrect boards in their descriptions. 
+First choose a board type. When you connect your Arduino board it should be auto-detected by the IDE. For some brands you may have to manual select it from the combo box. For off-brand Arduino we recommend searching forums for the best match. Many specify incorrect boards in their descriptions. 
 
-Next select >Sketch>Verify Compile. At the bottom of the IDE a console will appear and provide a detailed log. If you missed any libraries your will recieve an error message. Loading any required libraries and try again.
+Next select >Sketch>Verify Compile. At the bottom of the IDE a console will appear and provide a detailed log. If you missed any libraries your will receive an error message. Loading any required libraries and try again.
 
-Once the code is compiled select sktech>upload to deploy your code.
+Once the code is compiled select sketch>upload to deploy your code.
 
 ## Components
 
@@ -70,6 +70,4 @@ The layout is shown below.
 To test select Tools>Serial Monitor from the main menu. At the bottom of the IDE a new tab titled "Serial Monitor" will appear. From this console you can directly communicate with the Arduino. 
 
 In the console window type "5". You should see a response from the Arduino in the console and if the LED is connected to the Arduino it should turn white and flash in a circular pattern. 
-
-
 
